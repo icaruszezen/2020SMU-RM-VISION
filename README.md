@@ -1,6 +1,7 @@
 # 2020SMU-RM-VISION
 
-BY SMU AJI 视觉组 李泽森 陈炳强 山川
+BY SMU AJI 视觉组 李泽森 陈炳强 山川  
+特别感谢：parker
 
 代码基于大疆开源修改  
 删除了ARM下的加速neon指令，使代码能在x86平台下运行  
