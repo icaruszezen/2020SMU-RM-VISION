@@ -12,7 +12,7 @@ QMAKE_CXXFLAGS += -std=gnu++11 \
 INCLUDEPATH += -I/usr/local/include/opencv \
                -I/usr/local/include
 
-LIBS += `pkg-config --libs opencv` \
+LIBS += `pkg-config --libs opencv4` \
          -pthread
 
 SOURCES += ./src/*
