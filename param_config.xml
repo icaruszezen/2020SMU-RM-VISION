@@ -4,15 +4,6 @@
 <show_image>1</show_image>
 <save_result>0</save_result>
 
-<!--Parameter for Rune System-->
-<sudoku_cell_width>66</sudoku_cell_width>
-<sudoku_cell_height>37</sudoku_cell_height>
-<!--
-<sudoku_cell_width>138</sudoku_cell_width>
-<sudoku_cell_height>79</sudoku_cell_height>
--->
-<shoot_time_gap>200</shoot_time_gap>
-<shoot_filter_size>7</shoot_filter_size>
 
 <!--Parameter for Armor Detection System-->
 <min_light_gray>170</min_light_gray>
