@@ -9,7 +9,7 @@ QMAKE_CXXFLAGS += -std=gnu++11 \
                 -DCOUT_LOG
 
 
-INCLUDEPATH += -I/usr/local/include/opencv \
+INCLUDEPATH += -I/usr/local/include/opencv4 \
                -I/usr/local/include
 
 LIBS += `pkg-config --libs opencv4` \
