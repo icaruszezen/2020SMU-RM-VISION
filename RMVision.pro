@@ -10,12 +10,13 @@ QMAKE_CXXFLAGS += -std=gnu++11 \
 
 
 INCLUDEPATH += -I/usr/local/include/opencv4 \
-               -I/usr/local/include
+               -I/usr/local/include \
+               $$PWD/include
 
 LIBS += `pkg-config --libs opencv4` \
          -pthread
 
-SOURCES += ./src/*
+SOURCES += ./src/*.cpp
 
-HEADERS += ./include/*
+HEADERS += ./include/*.hpp
 
